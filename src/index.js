@@ -18,7 +18,7 @@ root.render(
 // serviceWorkerRegistration.unregister();
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/custom-sw.js')
+  navigator.serviceWorker.register('https://acekhan1999.github.io/flightinfo-pwa-28th-Apr/custom-sw.js')
     .then(() => {
       console.log('Custom Service Worker registered for flightinfo-pwa');
     })
